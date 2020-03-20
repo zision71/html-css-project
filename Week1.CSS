@@ -20,7 +20,10 @@ p {
   margin: 10px;
 }
 
-p:first-child {
-  color: royalblue;
+p:first-of-type {
+  padding: 1px;
+  border: 1px solid rgb(14, 13, 13);
+  margin: 10px;
+  color: rgb(14, 41, 124);
   background-color: rebeccapurple;
 }
